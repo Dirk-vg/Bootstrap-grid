@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(213, 243, 254, 0.342);
+    color: #333;
+}
+
+i{
+    margin-top: 1em;
+    font-size: 3em;
+    color: rgba(235, 155, 52, 0.9);
+}
+
+h4{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.btn-light{
+    border-radius: 2em;
+}
+
+.btn-light:hover {
+    color: #333;
+    background-color: rgba(235, 155, 52, 0.9);
+    border-color: rgba(235, 155, 52, 0.9);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.10);;
+}
+
+#sidebar.active {
+    margin-left: -150px;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    header {display: none;}
+}
